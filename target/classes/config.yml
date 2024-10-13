@@ -1,0 +1,25 @@
+database:
+  type: MySQL # MySQL or FILE
+  enabled: false # Change this to true if you want to use MySQL, no matter what you put at the type,
+  # if this is to false, it will always use a file database
+  connection:
+    host: localhost # change this to your database host
+    port: 3306 # change this to your database port
+    name: plotx_database # change this to your database name
+    username: root # change this to your database username
+    password: password # change this to your database password
+
+plot:
+  currency-type: ITEM # ITEM or MONEY
+  buy-price: 10 # Price to buy a plot, will be item stack if the currency-type is ITEM, if not, it will be the item amount.
+    # If it is an item, then use {quantity}_ITEM_NAME[enchantment: example_power, hide_enchants: true, lore: example, name: example]
+    #currently does not support NBT
+  # example item: 1_DIAMOND_SWORD[enchantment: sharpness_1, hide_enchants: true, lore: example_str2, name: &cExample_Item]
+
+  region-plots: # WorldGuard region name for plots
+    - "plot"
+
+owner-plot-permissions:
+  tp-to-plot: true # Allow the owner to teleport to his plot | Available true, region, false | region: Only if the owner is in the plot regions
+
+

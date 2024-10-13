@@ -1,0 +1,16 @@
+com\coco\plotX\configuration\type\MessageConfig.class
+com\coco\plotX\PlotX.class
+com\coco\plotX\listener\base\PlayerClickSign.class
+com\coco\plotX\listener\PlayerBuyPlot.class
+com\coco\plotX\Util\TextUtil$BeforeType.class
+com\coco\plotX\configuration\Config.class
+com\coco\plotX\configuration\Configuration.class
+com\coco\plotX\exceptions\WorldGuardNotFoundException.class
+com\coco\plotX\Util\TextUtil.class
+com\coco\plotX\hooks\Extension.class
+com\coco\plotX\PlotX$RunnableWithIndex.class
+com\coco\plotX\configuration\FileManager.class
+com\coco\plotX\Util\VersionUtil.class
+com\coco\plotX\commands\PlotXCommand.class
+com\coco\plotX\listener\PlayerMove.class
+com\coco\plotX\plots\Plot.class

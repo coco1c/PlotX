@@ -1,0 +1,8 @@
+name: PlotX
+version: '1.0-SNAPSHOT'
+main: com.coco.plotX.PlotX
+api-version: '1.13'
+description: Advanced Plot System
+depend: [WorldGuard]
+commands:
+  plotx:
